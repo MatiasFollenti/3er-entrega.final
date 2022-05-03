@@ -9,7 +9,7 @@ $Origen = $_POST["lugar-de-origen"];
 $Llegada = $_POST["fecha-de-llegada"];
 $Salida = $_POST["fecha-de-salida"];
 
-$para = "reservasblackforest@gmail.com";
+$para = "matiasfollenti@gmail.com";
 $asunto = "Este mail fue enviado desde la web";
 
 mail($para, $asunto, utf8_decode($nombre,$email,$tipologia,$DNI,$PAX,$Origen,$Llegada,$Salida));

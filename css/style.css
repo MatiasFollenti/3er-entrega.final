@@ -37,10 +37,13 @@ form .form-row button {
   font-size: 20px;
   color: aliceblue;
   font-weight: bold;
-  background-color: cornflowerblue;
+  background-color: rgb(241, 65, 65);
   padding: 10px 40px;
   border: none;
   border-radius: 3px;
+}
+form .form-row button:hover {
+  background-color: rgb(255, 104, 104);
 }
 
 header {
@@ -76,6 +79,10 @@ footer p {
   width: 90%;
   height: 450px;
   margin-bottom: 50px;
+}
+
+.disclaimer {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
