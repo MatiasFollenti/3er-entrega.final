@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 80%;
+}
+form .form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+form .form-row input [type=text] {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 100%;
+}
+form .form-row input [type=email] {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 100%;
+}
+form .form-row button {
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: bold;
+  background-color: cornflowerblue;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 3px;
+}
+
+header {
+  background-color: #FF5F3A;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23ee4c2e' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23dd3923' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23cc2617' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23bb130c' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+header .logotipo {
+  width: 120px;
+  height: 120px;
+}
+
+#inicio .row .col h2 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+#inicio .row .col .video {
+  width: 90%;
+  height: 450px;
+  margin-bottom: 50px;
+}
+body {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0' gradientTransform='rotate(0,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23BBBBBB'/%3E%3Cstop offset='1' stop-color='%23FFFFFF'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(213,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23555555'/%3E%3Cstop offset='1' stop-color='%23BBBBBB'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='3.3'%3E%3Cpath transform='translate(-68.25 1.5999999999999996) rotate(-2.75 1409 581) scale(0.9518249999999999)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='1.1' transform='translate(-91.5 54) rotate(3.6999999999999993 800 450) scale(1.0028199999999998)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(8.600000000000001 -49.5) rotate(24.5 401 736) scale(1.0028199999999998)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='1'%3E%3Cpath transform='translate(324 3.4000000000000004) rotate(-0.8500000000000001 150 345) scale(0.9952749999999999)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='2.2' transform='translate(-78.5 -147.5) rotate(14.400000000000006 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='translate(-184 48) rotate(2.3999999999999986 1400 132) scale(0.875)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
